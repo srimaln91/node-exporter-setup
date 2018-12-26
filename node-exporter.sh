@@ -113,7 +113,6 @@ EOF
 
 # Reload systemd daemon and enable suto start
 systemctl daemon-reload
-systemctl enable node-exporter
 
 printf "${GREEN}Created systemd service\n${NC}"
 
