@@ -125,7 +125,7 @@ printf "${GREEN}Started the service.\n${NC}"
 
 # Start service on system startup
 systemctl enable node-exporter
-printf "${GREEN}Enabled automaic startup.\n${NC}"
+printf "${GREEN}Enabled automatic startup.\n${NC}"
 
 printf "${GREEN}Installation is completed! :)\n${NC}"
 printf "You can use ${YELLOW}systemctl {start|stop|restart} node-exporter${NC} command to control the service\n"
